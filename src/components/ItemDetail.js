@@ -24,7 +24,7 @@ async function updateCompanyDetail(action, setItemDetail) {
 }
 
 async function updateProjectDetail(action, setItemDetail) {
-  let companyID = action.companyId[action.companyId.length - 1];
+  let companyID = action.companyId;
   let obj = {item: action.viewItem}
 
   // Get address and project
@@ -113,6 +113,7 @@ function handleViewItemChange(action, setItemDetail) {
   return {
     viewItem: state.viewItem,
     viewId: state.viewId,
+    editId: state.editId,
     companyId: state.companyId
   }
 }
