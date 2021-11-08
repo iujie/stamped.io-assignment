@@ -13,6 +13,6 @@ export function editProject(item, data) {
     return {
         type: actions.EDIT_PROJECT,
         viewItem: item,
-        companyId: [data.companyId]
+        companyId: data.companyId
     }
 }
