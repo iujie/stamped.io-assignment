@@ -1,5 +1,7 @@
 import * as actions from '../actions/actionType';
 
+let edit_id = 0;
+
 export default  function reducer(state = [], action) {
     switch(action.type) {
         case actions.VIEW_DETAIL_TYPE:
@@ -10,7 +12,8 @@ export default  function reducer(state = [], action) {
         case actions.EDIT_PROJECT:
         return  {
             'viewItem': action.viewItem,
-            'companyId': state.viewItem === action.viewItem ? state.companyId.concat(action.companyId) : action.companyId
+            'editId': edit_id++,
+            'companyId': action.companyId
         }
         default:
             return state
