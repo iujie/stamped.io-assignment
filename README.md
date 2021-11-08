@@ -9,7 +9,7 @@
     - Company's projects (editable)
     
 2. Click on Employee's Name to display:
-    - Employee'sdetails
+    - Employee's details
     - Projects they participate in (uneditable)
     
 3. Click on Employee's Job Area to display:
