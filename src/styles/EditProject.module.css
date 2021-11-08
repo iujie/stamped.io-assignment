@@ -1,0 +1,94 @@
+/*************
+ * Form * 
+ **************/
+.editProjectForm {
+    margin: 16px 0px 16px;
+    padding: 0px 16px 16px;
+    border: 1px black dashed;
+    background-color: rgb(236, 230, 252);
+}
+
+.editProjectForm h4 {
+    text-align: center;
+}
+
+.editProjectForm input {
+    margin-left: 8px;
+    width: auto;
+    padding: 4px 6px;
+    border-radius: 4px;
+    border-color: gray;
+    background-color: white;
+}
+
+.editProjectForm select {
+    margin-top: 8px;
+    margin-left: 8px;
+    width: auto;
+    padding: 4px 6px;
+    border-radius: 4px;
+    border-color: gray;
+    background-color: white;
+}
+
+/****************
+ * Action Buttons * 
+ **************/
+.actionButton {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.actionButton button[type="submit"] {
+    padding: 0px 16px;
+    font-size: 14px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: rgb(115, 68, 204);
+    color: white;
+}
+
+
+/****************
+ * Employee Tag * 
+ **************/
+
+.employeeTag {
+    position: relative;
+    display: inline-block;
+    margin: 0px 8px 4px;
+    padding: 4px 28px 4px 12px;
+    border-radius: 16px;
+    background-color:rgb(208, 186, 250);
+}
+
+.employeeTag p {
+    margin: 0px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.employeeTag button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 24px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+}
+
+.employeeTag button:before {
+    content: '✖';
+    color:rgb(115, 68, 204);
+}
+
+/****************
+ * Output Message * 
+ **************/
+.outputMessage {
+    margin: 24px 0px 0px;
+    text-align: center;
+    color:rgb(238, 138, 45)
+}

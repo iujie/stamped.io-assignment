@@ -1,0 +1,40 @@
+/*************
+ * Company List * 
+ **************/
+.companyList {
+    min-height: 100vh;
+    padding: 24px 0px 0px;
+    background-color: rgb(198, 229, 255);
+}
+
+.companyList h1 {
+    text-align: center;
+}
+
+/*************
+ * Company Card * 
+ **************/
+ .companyCard {
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px 0px 16px 32px;
+    width: calc(100% - 64px);
+    max-width: 320px;
+    height: 260px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.companyCard p,
+.companyCard li {
+    cursor: pointer;
+}
+
+/*************
+ * Instruction * 
+ **************/
+.instruction {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+/*************
+ * Item Information * 
+ **************/
+.itemInformation {
+    position: sticky;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    width: calc(100% - 24px);
+    max-width: 320px;
+    height: auto;
+    padding: 12px 24px 24px;
+    border-top-left-radius: 4px;
+    background-color: rgb(183, 184, 252);
+}
+
+/******************
+ * Employee Detail * 
+ *****************/
+.employeeDetail {
+    padding-left: 8px;
+}
+
+.employeeDetail p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+/******************
+ * Project * 
+ *****************/
+.project {
+    cursor: pointer;
+}
